@@ -1,0 +1,34 @@
+button {
+    background-color: white;
+    color:black;
+    border: none;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 2px 2px 0 gainsboro;
+    margin-bottom: 10px;
+    margin-left: 18px;
+    transition: opacity .4s ease-out, transform .4s ease-out, visibility .4s ease-out;
+    position: relative;
+    top: -10px;
+  }
+  
+  button:hover {
+    background-color: gainsboro;
+  }
+  
+  button:active {
+    background-color: gainsboro;
+    box-shadow: none;
+    position: relative;
+    top: -8px;
+    left: 2px;
+  }
+
+#container {
+    background-color: black;
+    text-align: center;
+    padding-top: 25%;
+}
